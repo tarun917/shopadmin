@@ -4,7 +4,7 @@ import upload_area from "../Assets/upload_area.svg";
 
 const AddProduct = () => {
 
-  const[image,setImage] = useState(false);
+  const[image,setImage] = useState(null);
   const [productDetails,setProductDetails] = useState({
       name:"",
       image:"",
